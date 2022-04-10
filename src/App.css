@@ -5,9 +5,17 @@
   font-family: sarabun;
 }
 
+:root {
+  --primary-color: #ad8b73;
+  --secondary-color: #ceab93;
+  --light-color: #e4cda7;
+  --lighter-color: #f3d5c0;
+  --dark-color: #876445;
+  --darker-color: #6b4f4f;
+}
+
 .App {
-  width: 100vw;
-  height: 100vh;
-  padding: 5%;
-  background-color: #f4dfba;
+  min-height: 100vh;
+  padding: 2%;
+  background-color: var(--light-color);
 }

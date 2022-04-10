@@ -1,12 +1,9 @@
 div #main-content-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  background-color: #a97155;
+  background-color: var(--dark-color);
   border-radius: 2rem;
   box-shadow: 3px 4px 17px 3px rgba(0, 0, 0, 0.1);
   margin-left: 15%;
+  padding: 5%;
   width: 80%;
   height: 100%;
 }
@@ -14,4 +11,33 @@ div #main-content-container {
 .content-box {
   width: 80%;
   color: white;
+}
+
+.content-list-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+  margin-left: 0;
+  padding: 2.5rem;
+  border-radius: 1rem;
+  font-size: 2rem;
+  color: var(--darker-color);
+  background-color: var(--light-color);
+}
+
+.title {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+.content {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
 }

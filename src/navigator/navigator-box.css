@@ -12,7 +12,7 @@
   border: none;
   font-size: 24px;
   color: white;
-  background-color: #ad8b73;
+  background-color: var(--primary-color);
   box-shadow: 3px 4px 17px 3px rgba(0, 0, 0, 0.1);
   height: 10rem;
   width: 10rem;
@@ -20,10 +20,11 @@
   margin: 2%;
 }
 
-.side-navigator-menu:hover {
-  background-color: #f4dfba;
+.side-navigator-menu:hover,
+.side-navigator-child:hover {
+  background-color: var(--lighter-color);
   cursor: pointer;
-  color: #876445;
+  color: var(--dark-color);
 }
 
 .side-navigator-box a:last-child {
@@ -35,7 +36,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: #ceab93;
+  background-color: var(--secondary-color);
   box-shadow: 3px 4px 17px 3px rgba(0, 0, 0, 0.1);
   height: 10rem;
   width: 10rem;
@@ -45,10 +46,4 @@
   font-size: 20px;
   border: none;
   text-decoration: none;
-}
-
-.side-navigator-child:hover {
-  background-color: #f4dfba;
-  cursor: pointer;
-  color: #876445;
 }

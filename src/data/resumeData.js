@@ -14,14 +14,25 @@ const resumeDatas = [
   {
     id: 3,
     title: "EDUCATION",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ante vulputate, efficitur risus in, pulvinar nibh. Aenean erat ante, congue in lobortis eu, elementum et lacus. Praesent non tempus est, sed tincidunt nibh. Donec eu eros nisi. Vivamus placerat lacinia euismod. Duis porta nec ligula sed egestas. Mauris convallis.",
+    content: [
+      "TechUp (Full-Stack Software Developer Bootcamp) from January 2022 - June 2022",
+      "Kasetsart University Sriracha Campus (BBA) in Hotel and Tourism Management from 2011 - 2015",
+    ],
   },
   {
     id: 4,
     title: "TECHNICAL SKILLS",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc non ante vulputate, efficitur risus in, pulvinar nibh. Aenean erat ante, congue in lobortis eu, elementum et lacus. Praesent non tempus est, sed tincidunt nibh. Donec eu eros nisi. Vivamus placerat lacinia euismod. Duis porta nec ligula sed egestas. Mauris convallis.",
+    content: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "PostgreSQL",
+      "Software Testing",
+      "Git",
+    ],
   },
 ];
 
