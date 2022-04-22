@@ -6,7 +6,8 @@ function useMatchInfo() {
 
   function clicked(dataId) {
     const dataIndex = resumeDatas.findIndex((data) => data.id === dataId);
-    const temp = resumeDatas[dataIndex];
+    let temp = resumeDatas[dataIndex];
+
     setShowInfo(temp);
   }
   return { showInfo, clicked };
